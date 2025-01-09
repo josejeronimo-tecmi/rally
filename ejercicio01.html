@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Repaso</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilo.css">
+     
+</head>
+<body>
+	<div class="container-fluid">
+        <section class="container">
+            <h2>Crear una cuenta</h1>
+                <h3>Es gratis para siempre</h2>   
+                <div class="caja">
+                    <label for="nombre" class="form-label">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" class="form-control form-control-m" placeholder="Nombre del cliente" >
+                </div>
+                <div class="caja">
+                    <label for="apellidos" class="form-label">Apellido:</label>
+                    <input type="text" name="apellidos" id="apellidos" class="form-control form-control-m" placeholder="Apellidos del cliente" >
+                </div>
+                <div class="caja">
+                    <label for="password" class="form-label">Constraseña:</label>
+                    <input type="password" name="password" id="password" class="form-control form-control-m" placeholder="Constraseña del usuario" >
+                </div> 
+                <div class="caja">
+                    <label for="lista" class="form-label">Selecciona tus areas de interes:</label>
+                    <input list="opciones" id="areasInteres" class="for-control" placeholder="Areas Interes">
+                    <datalist id="opciones">
+                        <option value="Juegos"></option>
+                        <option value="Viajes"></option>
+                        <option value="Finanzas"></option>
+                        <option value="Vuelos"></option>
+                    </datalist>
+                </div>
+                <div class="caja">
+                    <label for="fechaNacimiento" class="form-label">Fecha nacimiento:</label>
+                    <input type="date" name="fechaNacimiento" id="fechaNacimiento" class="form-control form-control-m" placeholder="Fecha nacimiento" >
+                </div>
+            <label class="form-label">Acepto las politicas de protección de datos</label>
+            <input class="form-check-input me-1" type="checkbox" value="" id="acepto">
+            <div class="caja">
+                <button  type="text" id="enviar">Enviar</button>
+                <script src="crearCuenta.js"></script> 
+            </div>
+        </section> 
+    </div>
+</body>
+</html>

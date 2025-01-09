@@ -1,0 +1,44 @@
+body{
+    background-color: LightSkyBlue; 
+}
+
+.container{
+    background-color: darkblue;
+    width: 80%;
+    color: white;
+    padding: 20px;
+    border: 5px solid gray;
+    border-radius: 16px;
+    margin: 0px auto;
+    margin-top: 100px; 
+    
+}
+
+
+.caja{
+    display: flex;
+    margin: 15px 0px;
+
+}
+
+.h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.h3{
+    
+    margin-bottom: 10px;
+}
+
+button{
+    
+    background-color: rgb(0,149, 255);
+    color: white;
+    border: none;
+    margin-top:10px;
+    padding: 6px;
+    border-radius: 5px;
+    cursor:pointer;
+    transition:all ease 300ms
+}
